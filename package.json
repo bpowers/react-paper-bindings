@@ -1,12 +1,13 @@
 {
-  "name": "react-paper-bindings",
+  "name": "react-paper-bindings-bpowers-fork",
   "description": "Paper.js bindings for React",
+  "version": "3.0.0",
   "author": "Bojan Hribernik <bojan.hribernik@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/react-paper/react-paper-bindings",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-paper/react-paper-bindings.git"
+    "url": "https://github.com/bpowers/react-paper-bindings.git"
   },
   "bugs": {
     "url": "https://github.com/react-paper/react-paper-bindings/issues"
