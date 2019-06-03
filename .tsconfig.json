@@ -1,0 +1,39 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "outDir": "lib",
+
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2018"
+    ],
+
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+
+    "strictPropertyInitialization": false,
+
+    "noImplicitAny": true,
+    "newLine": "LF",
+
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+
+    "noUnusedLocals": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "moduleResolution": "node"
+  }
+}
