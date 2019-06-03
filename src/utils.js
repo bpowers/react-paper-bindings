@@ -1,9 +1,11 @@
 // @flow
 
-type Point = {
-  x: number,
-  y: number,
-} | Array<number>
+type Point =
+  | {
+      x: number,
+      y: number,
+    }
+  | Array<number>
 
 export function arePointsEqual(p1: Point, p2: Point) {
   if (p1 && p2) {

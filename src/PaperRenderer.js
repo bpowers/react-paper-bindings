@@ -5,7 +5,7 @@ import {
   unstable_now as now,
   unstable_scheduleCallback as scheduleDeferredCallback,
   unstable_cancelCallback as cancelDeferredCallback,
-} from 'scheduler';
+} from 'scheduler'
 import invariant from 'fbjs/lib/invariant'
 import emptyObject from 'fbjs/lib/emptyObject'
 
@@ -34,7 +34,7 @@ function applyItemProps(instance, props, prevProps = {}) {
     instance.opacity = props.opacity
   }
   if (props.rotation !== prevProps.rotation) {
-    instance.rotation = props.rotation;
+    instance.rotation = props.rotation
   }
   if (props.selected !== prevProps.selected) {
     instance.selected = props.selected
@@ -361,7 +361,7 @@ const PaperRenderer = Reconciler({
         }
         break
       default:
-        break;
+        break
     }
     return false
   },
